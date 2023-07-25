@@ -23,11 +23,13 @@ function calculadora(num1, num2, operacion) {
     }
 }
 
+alert("Hola, esta es una calculadora virtual, a continuación ingrese los operandos a resolver");
+
 let memoria = ""; // Cadena para almacenar las operaciones realizadas // Variable Global
 
 do {
-    const numero1 = parseFloat(prompt("Ingrese el número uno"));
-    const numero2 = parseFloat(prompt("Ingrese el número dos"));
+    const numero1 = parseFloat(prompt("Ingrese el operando uno"));
+    const numero2 = parseFloat(prompt("Ingrese el operando dos"));
     const operacion = prompt(
         "Ingrese la operación (+ para suma, - para resta, * para multiplicación, / para división, sqrt para raíz cuadrada, USD-EUR para convertir de dólares a euros, o escriba 'salir' para terminar)"
     );
